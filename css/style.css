@@ -224,7 +224,8 @@ body.modal-open {
     background: #f8f8f8;
 }
 .header-buttons {
-    margin: 60px auto 100px auto;
+   /* margin: 354px auto 100px auto;*/
+   padding: 349px 26px 83px 0px;
 }
 .primary-button {
     min-width: 150px;
@@ -615,6 +616,18 @@ header .intro-text {
     padding-top: 100px;
     padding-bottom: 50px;
 }
+header .intro-text .intro-side-head{
+    font-family: PTSans;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 25px;
+    max-width: 75%;
+    display: block;
+    text-align: left;
+    float: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
 header .intro-text .intro-heading {
     font-family: PTSans;
     font-size: 18px;
@@ -640,6 +653,60 @@ header .intro-text {
     padding-bottom: 0;
     float: left;
     width: 50%;
+}
+.item-1, 
+.item-2, 
+.item-3,
+.item-4 {
+    position: absolute;
+  display: block;
+
+  
+  width: 60%;
+  
+
+
+    animation-duration: 20s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+
+.item-1{
+    animation-name: anim-1;
+}
+
+.item-2{
+    animation-name: anim-2;
+}
+
+.item-3{
+    animation-name: anim-3;
+}
+.item-4{
+    animation-name: anim-4;
+}
+
+@keyframes anim-1 {
+    0%, 6.25% { left: -50%; opacity: 0; }
+  6.25%,18.75% { left: 0%; opacity: 1; }
+  25%, 100% { left: 20%; opacity: 0; }
+}
+
+@keyframes anim-2 {
+    0%, 25% { left: -50%; opacity: 0; }
+  31.25%, 43.75% { left: 0%; opacity: 1; }
+  50%, 100% { left: 20%; opacity: 0; }
+}
+
+@keyframes anim-3 {
+    0%, 50% { left: -50%; opacity: 0; }
+  56.25%, 68.75% { left: 0%; opacity: 1; }
+  75%,100% { left: 20%; opacity: 0; }
+}
+@keyframes anim-4 {
+    0%, 75% { left: -50%; opacity: 0; }
+  81.25%, 93.75% { left: 0%; opacity: 1; }
+  100% { left: 20%; opacity: 0; }
 }
 header .intro-text .intro-lead-in {
     font-family: WorkSans;

@@ -301,6 +301,34 @@ body.modal-open {
     height: 44px;
     width: auto;
 }
+/*SERVICE*/
+.Bulk-Whatsup{
+    width: 100%;
+}
+.arc-1{
+    font-size: 22px;
+    line-height: initial;
+    text-align: justify;
+    font-style: normal;
+}
+.ard-1{
+        font-size: 18px;
+    font-family: cursive;
+}
+.items{
+    font-size: 20px;
+    padding: 5px;
+}
+.points-view{
+margin-top: 75px;
+}
+.fa-check-square{
+    padding: 10px
+}
+.Bulk-voice{
+    width: 29em;
+    margin-top: 174px;
+}
 /*3.3 PRELOADER*/
 
 #preloader {
@@ -758,10 +786,31 @@ header .container {
 .service-heading {
     text-transform: none;
     color: #333;
+    font-size: 32px;
+    margin-top: 0;
+    line-height: 22px;
+    margin-bottom: 50px;
+    font-weight: 800;
+    font-family: cursive;
+}
+.service-heading1 {
+    text-transform: none;
+    color: #333;
     font-size: 22px;
     margin-top: 0;
     line-height: 22px;
     margin-bottom: 22px;
+    font-weight: 500;
+}
+.about-heading{
+    text-transform: none;
+    color: #333;
+    font-size: 26px;
+    margin-top: 0;
+    line-height: 22px;
+    margin-bottom: 22px;
+    font-weight: 600;
+    font-family: cursive;
 }
 /*6.2 FEATURES*/
 
@@ -771,9 +820,24 @@ header .container {
     position: relative;
 }
 #features img {
-    position: absolute;
-    top: 0;
-    right: 0
+   
+}
+.about-heading{
+        text-transform: none;
+    color: #333;
+    font-size: 22px;
+    margin-top: 123px;
+    line-height: 22px;
+    margin-bottom: 22px;
+}
+.about-side{
+width: 31em;
+}
+#features .fadeRight{
+     position: absolute;
+    top: 50px;
+    right: 0;
+    width: 49%;
 }
 #features .section-subheading {
     margin-bottom: 30px;
@@ -870,7 +934,7 @@ header .container {
     left: -8px;
 }
 #features-tab1 img {
-    margin-right: -200px;
+    margin-right: -89px;
 }
 #features-tab2 img {
     margin-right: 60px;
@@ -1068,6 +1132,13 @@ header .container {
     text-align: center;
     height: 30px;
     line-height: 30px;
+    padding: 97px 10px;
+}
+.chart-content1 {
+    text-align: center;
+    height: 30px;
+    line-height: 30px;
+    padding: 97px 10px;
 }
 .chart-content h4 {
     color: #666;
@@ -1081,7 +1152,24 @@ header .container {
     position: relative;
     top: -6px;
 }
+.chart-content1 h4 {
+    color: #666;
+    font-family: PTSans;
+    font-size: 18px;
+    margin: 0;
+    font-weight: 400;
+    display: inline-block;
+    line-height: 30px;
+    margin-left: 10px;
+    position: relative;
+    top: -6px;
+}
 .chart-content .nc-icon-outline {
+    color: #1080f2;
+    display: inline-block;
+    font-size: 30px;
+}
+.chart-content1 .nc-icon-outline {
     color: #1080f2;
     display: inline-block;
     font-size: 30px;
@@ -1884,14 +1972,38 @@ footer {
 }
 .nc-icon-outline {
     display: inline-block;
-    font: 100 32px/1 'Nucleo Outline';
+    font: 100 32px/2 'Nucleo Outline';
     speak: none;
     text-transform: none;
+    margin-left: 80px;
+    color: blue;
     /* Better Font Rendering */
     
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
+.icon{
+ display: inline-block;
+    font-size: 40px;
+    line-height: 2;
+    speak: none;
+    text-transform: none;
+    margin-left: 80px;
+    color: blue;
+}
+.agn{
+    width: 50%;
+}
+.icon1{
+ display: inline-block;
+    font-size: 40px;
+    line-height: 2;
+    speak: none;
+    text-transform: none;
+    margin-left: 80px;
+    color: red;
+}
+
 .nc-icon-outline.air-baloon:before {
     content: "\e600";
 }
